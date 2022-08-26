@@ -35,7 +35,6 @@ namespace PasswortTSLock
 
                     wpe.Start();
                     wpe.WaitForExit();
-
                 }
                 passwordLabel.Content = $"{trys}. Wrong Password";
                 trys++;
