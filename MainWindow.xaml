@@ -15,8 +15,8 @@
     <Grid>
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
-        <Button x:Name="checkPassword" Content="CheckPassword" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Top" Click="checkPassword_Click" IsDefault="True"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="checkPassword" Content="Check Password" HorizontalAlignment="Center" Margin="0,126,0,0" VerticalAlignment="Top" Click="checkPassword_Click" IsDefault="True" Height="40" Width="120" FontSize="16"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Width="120" Height="20"/>
         <Label x:Name="passwordLabel" Content="" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Foreground="Red" FontWeight="Bold" FontSize="16"/>
     </Grid>
 </Window>
